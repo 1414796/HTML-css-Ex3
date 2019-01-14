@@ -1,0 +1,189 @@
+hr { 
+	display: block;
+  margin-top: 14px;
+  /* margin-bottom: 0.5em; */
+  margin-left: 29px;
+  margin-right: 28px;
+  color: #595959;
+  border-style: dotted;
+  border-width: 0.5px;
+}
+
+.container {
+	width: 1052px;
+	height: 920px;
+	margin: 0 auto;
+	background-color: #101010;
+}
+
+.header {
+	position: relative;
+
+	width: 1052px;
+	height: 212px;
+}
+
+.header img {
+	width: 1052px;
+	height: auto;
+}
+
+.menu {
+	position: absolute;
+
+	margin-right: 57px;
+	margin-left: 58px;
+}
+
+.menu img {
+	float: left;
+	margin-top: -50px;
+	padding-left: 0px;
+  padding-right: 5px;
+	height: 89px;
+	
+}
+
+.menu__home {
+	width: 114px;
+}
+
+.menu__folder {
+	width: 112px;
+}
+
+.menu__desk {
+	width: 107px;
+}
+
+.menu__chair {
+	width: 111px;
+}
+
+.menu__top {
+	width: 113px;
+}
+
+.content {
+	margin-right: 57px;
+	margin-left: 57px;
+	margin-top: 95px;
+	height: 626px;
+	width: 578px;
+}
+
+.left {
+	float: left;
+	width: 198px;
+	height: auto;
+}
+
+.left img {
+	position: relative;
+	width: 196px;
+}
+
+.left__text {
+  position: absolute;
+  margin-top: -247px;
+  margin-left: 28px;
+  margin-right: 10px;
+  width: 140px;
+  color: #595959;
+  line-height: 1.6;
+  font-size: x-small;
+}
+
+.left__list {
+  position: absolute;
+  margin-top: -128px;
+  margin-left: -3px;
+  list-style-type: none;
+  font-size: x-small;
+  line-height: 2;
+}
+
+.left__list a {
+  color: #595959;
+
+}
+
+.right {
+	float: left;
+	width: 380px;
+	height: auto;
+}
+
+.right  img {
+  margin-left: 31px;
+  margin-top: 34px;
+	width: 328px;
+	height: 106px;
+}
+
+.right__text {
+  margin-left: 12px;
+  margin-top: -22px;
+}
+
+.right__text > img {
+	width: 95px;
+	height: 17px;
+}
+
+.right__text > p {
+  margin-left: 30px;
+  margin-right: 5px;
+  margin-top: 4px;
+  color: #595959;
+  font-size: x-small;
+}
+
+
+.right__text > span {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 31px;
+  font-size: x-small;
+
+}
+.right__text > span > a {
+	color: #fff;
+	text-decoration: none;
+	font-size: x-small;
+}
+
+.right__text > span > img {
+	width: 10px;
+	height: 10px;
+	margin-left: 0px;
+  margin-top: 0px;
+}
+
+.right2 {
+	margin-top: 19px;
+}
+
+.clear-content {
+	clear: both;
+}
+
+.footer {
+	margin-top: 70px;
+  margin-left: 4px;
+  margin-right: 26px;
+  color: #595959;
+  border-top-style: dotted;
+  border-top-width: 0.5px;
+}
+
+.footer span {
+	text-decoration: underline; 
+}
+
+.footer p {
+	margin-left: 2px;
+  margin-top: 18px;
+	font-size: 8.5px;
+
+}
