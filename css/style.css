@@ -13,7 +13,7 @@ hr {
 	width: 1052px;
 	height: 920px;
 	margin: 0 auto;
-	background-color: #101010;
+	background-color: #121214;
 }
 
 .header {
@@ -30,16 +30,16 @@ hr {
 
 .menu {
 	position: absolute;
-
 	margin-right: 57px;
 	margin-left: 58px;
+    width: 576px;
+
 }
 
 .menu img {
-	float: left;
 	margin-top: -50px;
-	padding-left: 0px;
-  padding-right: 5px;
+	/*padding-left: 0px;
+  	padding-right: 5px;*/
 	height: 89px;
 	
 }
@@ -50,14 +50,17 @@ hr {
 
 .menu__folder {
 	width: 112px;
+	padding-left: 1px;
 }
 
 .menu__desk {
 	width: 107px;
+	padding-left: 1px;
 }
 
 .menu__chair {
 	width: 111px;
+	padding-left: 1px;
 }
 
 .menu__top {
