@@ -11,16 +11,16 @@ hr {
 
 .container {
 	width: 1052px;
-	height: 920px;
+	/*height: 920px;*/
 	margin: 0 auto;
 	background-color: #121214;
 }
 
 .header {
 	position: relative;
-
+    margin-top: 9px;
 	width: 1052px;
-	height: 212px;
+	/*height: 212px;*/
 }
 
 .header img {
@@ -31,6 +31,7 @@ hr {
 .menu {
 	position: absolute;
 	margin-right: 57px;
+	margin-top: -6px;
 	margin-left: 58px;
     width: 576px;
 
@@ -38,9 +39,8 @@ hr {
 
 .menu img {
 	margin-top: -50px;
-	/*padding-left: 0px;
-  	padding-right: 5px;*/
-	height: 89px;
+
+	/*height: 89px;*/
 	
 }
 
@@ -70,8 +70,8 @@ hr {
 .content {
 	margin-right: 57px;
 	margin-left: 57px;
-	margin-top: 95px;
-	height: 626px;
+	margin-top: 90px;
+	/*height: 626px;*/
 	width: 578px;
 }
 
@@ -173,6 +173,7 @@ hr {
 
 .footer {
 	margin-top: 70px;
+	padding-bottom: 42px;
   margin-left: 4px;
   margin-right: 26px;
   color: #595959;
@@ -180,8 +181,8 @@ hr {
   border-top-width: 0.5px;
 }
 
-.footer span {
-	text-decoration: underline; 
+.footer a {
+	color: #595959;
 }
 
 .footer p {
