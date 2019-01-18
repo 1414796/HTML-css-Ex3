@@ -156,6 +156,17 @@ hr {
 	font-size: x-small;
 }
 
+.content__link {
+	color: #fff;
+    text-decoration: none;
+}
+
+.content__link:before {
+    content: url(images/pic_arrow.png);
+    position: relative;
+    top: 2px;
+}
+
 .right__text > span > img {
 	width: 10px;
 	height: 10px;
